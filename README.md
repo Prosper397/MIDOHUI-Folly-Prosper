@@ -2,7 +2,7 @@
 <p align="center">Étudiant en Génie Logiciel • Backend & Data enthusiast • En route vers l'IA</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?label=Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FProsper397&color=blue" />
+  <img src="https://img.shields.io/badge/dynamic/json?label=Repos&query=$.public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2FProsper397&color=blue" />
   <img src="https://img.shields.io/github/followers/Prosper397?label=Followers&style=flat&color=blue" />
 </p>
 
