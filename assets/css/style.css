@@ -1,0 +1,48 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* --- Corrections d'espacement (mobile + desktop) --- */
+
+.wrapper {
+  padding: 20px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 20px 40px;
+  }
+}
+
+/* Photo de profil : coins arrondis + marge en dessous */
+.wrapper img {
+  border-radius: 12px;
+  margin-bottom: 20px;
+  max-width: 100%;
+}
+
+/* Un peu d'air entre le titre et le reste */
+h1, .header h1 {
+  margin-bottom: 16px;
+}
+
+/* Aère les sections du contenu principal */
+section {
+  padding: 20px 0;
+}
+
+/* Espace sous chaque paragraphe */
+p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+/* Tableaux plus respirables */
+table {
+  margin-bottom: 24px;
+}
+
+td, th {
+  padding: 10px 12px !important;
+}
