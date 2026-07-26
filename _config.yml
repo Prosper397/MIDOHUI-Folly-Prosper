@@ -1,0 +1,186 @@
+# ==========================================================
+# config.yml — Données centrales du portfolio GitHub
+# Sert de source unique de vérité pour le README et pour
+# toute automatisation future (script/Action qui régénère
+# le README à partir de ce fichier).
+# ==========================================================
+
+# Métadonnées du site (si utilisé avec un générateur type Jekyll/GitHub Pages)
+title: "MIDOHUI Folly Prosper"
+logo: img/prosper.jpg   # à ajouter : télécharge ta photo LinkedIn et place-la dans img/prosper.jpg
+description: "Portfolio Développeur Logiciel — Backend, Data & IA"
+show_downloads: true
+theme: jekyll-theme-minimal
+lang: fr
+
+profile:
+  name: "Prosper"
+  full_name: "MIDOHUI Folly Prosper"
+  username_github: "Prosper397"
+  tagline: "Étudiant en Génie Logiciel • Backend & Data enthusiast • En route vers l'IA"
+  location: "Lomé, Togo"
+  about: >
+    Étudiant en Génie Logiciel et Systèmes d'Information à l'IAI-Togo.
+    Je construis des applications concrètes pour des besoins réels, avec
+    l'objectif à terme de me spécialiser en Data Science et IA
+    (Master → Doctorat). Ma méthode : apprendre en construisant.
+
+focus_actuel:
+  - "Stage de 2e année à l'IAI-Togo — projet FormationPro"
+  - "Construction de ma base en Data Science / MLOps"
+  - "Apprentissage continu : Flutter/Dart, C#, Python, systèmes distribués"
+
+stack:
+  backend:
+    - Node.js
+    - Express
+    - TypeScript
+    - "C#"
+    - .NET
+  frontend_mobile:
+    - React
+    - Flutter
+    - Dart
+  data_ia:
+    - Python
+    - Pandas
+    - Matplotlib
+    - Seaborn
+    - OpenPyXL
+    - Scikit-learn
+    - TensorFlow
+  bases_de_donnees:
+    - PostgreSQL
+    - Prisma
+  autres_langages:
+    - Java
+    - C++
+  outils:
+    - Docker
+    - Git
+    - Linux
+    - Cloudinary
+
+projet_phare:
+  nom: "FormationPro"
+  url: "https://github.com/Prosper397/FormationPro"
+  contexte: "Stage de 2e année à l'IAI-Togo, pour l'entreprise ITEBEMA SARL U"
+  description: >
+    Plateforme full-stack de gestion de formations en présentiel —
+    inscriptions, paiement mobile (Moov Money, T-Money), création
+    automatique de groupes, présence, quiz et certificats.
+  stack: [Node.js, Express, TypeScript, Prisma, PostgreSQL, React, Flutter]
+  points_forts:
+    - "Architecture 3-tiers"
+    - "RBAC + JWT"
+    - "Soft delete conforme RGPD"
+    - "Prototype d'assistant IA (RAG) intégré"
+
+projets:
+  web_mobile:
+    - nom: "fintrack-ai"
+      url: "https://github.com/Prosper397/fintrack-ai"
+      description: "Gestionnaire de finances personnelles avec catégorisation automatique des dépenses par IA"
+      stack: [React, Node.js]
+    - nom: "todo-reactjs"
+      url: "https://github.com/Prosper397/todo-reactjs"
+      description: "Todo list avec filtrage par priorité et persistance locale"
+      stack: [React, TypeScript, Tailwind]
+    - nom: "carte_etudiant"
+      url: "https://github.com/Prosper397/carte_etudiant"
+      description: "Liste de cartes étudiants (nom, filière, note) — apprentissage des widgets Flutter de base"
+      stack: [Flutter]
+    - nom: "flutter-auth-ui"
+      url: "https://github.com/Prosper397/flutter-auth-ui"
+      description: "Écrans Connexion/Inscription avec validation de formulaires et thème centralisé"
+      stack: [Flutter]
+    - nom: "flutter-navigation-demo"
+      url: "https://github.com/Prosper397/flutter-navigation-demo"
+      description: "Navigation par routes nommées, gestion d'état avec StatefulWidget/setState"
+      stack: [Flutter]
+    - nom: "WhatsApp-Bot-Python"
+      url: "https://github.com/Prosper397/WhatsApp-Bot-Python"
+      description: "Bot WhatsApp automatisé (horaires, tarifs, RDV) via l'API Twilio"
+      stack: [Python, Flask]
+    - nom: "gestion-matchs"
+      url: "https://github.com/Prosper397/gestion-matchs"
+      description: "Gestion de matchs avec chronomètre et scores en temps réel"
+      stack: [CSS]
+
+  data_ml:
+    - nom: "analyse-ventes-retail"
+      url: "https://github.com/Prosper397/analyse-ventes-retail"
+      description: "EDA complète sur un dataset retail réel — nettoyage, analyse, visualisation"
+      stack: [Python, Pandas, Matplotlib, Seaborn]
+    - nom: "PipelineExcelNettoyage"
+      url: "https://github.com/Prosper397/PipelineExcelNettoyage"
+      description: "Pipeline automatisé de nettoyage et reporting de données de ventes"
+      stack: [Python, Pandas, OpenPyXL]
+    - nom: "spamOuNonSpam"
+      url: "https://github.com/Prosper397/spamOuNonSpam"
+      description: "Calcul de probabilité spam/non-spam via combinatoire"
+      stack: [Python]
+    - nom: "livreMachineLearning"
+      url: "https://github.com/Prosper397/livreMachineLearning"
+      description: "Suivi pratique d'un ouvrage de bases du Machine Learning"
+      stack: [Scikit-learn, TensorFlow]
+    - nom: "cryptoEtImage"
+      url: "https://github.com/Prosper397/cryptoEtImage"
+      description: "Cryptographie symétrique + traitement d'image (fond, remove)"
+      stack: [Python]
+
+  poo_structures:
+    - nom: "Bibliotheque"
+      url: "https://github.com/Prosper397/Bibliotheque"
+      description: "Classe Livre et sous-classes (LivrePoche, Polar)"
+      stack: [Java]
+    - nom: "projetLivre"
+      url: "https://github.com/Prosper397/projetLivre"
+      description: "Héritage et redéfinition de méthodes — classe mère Oeuvre, filles DVD/Livre"
+      stack: [Java]
+    - nom: "notionDeClasseAbstraite"
+      url: "https://github.com/Prosper397/notionDeClasseAbstraite"
+      description: "Évolution du projet Livre vers une classe abstraite Oeuvre"
+      stack: [Java]
+    - nom: "csharp-task-manager-cli"
+      url: "https://github.com/Prosper397/csharp-task-manager-cli"
+      description: "CLI de gestion de tâches (CRUD complet), persistance JSON"
+      stack: ["C#"]
+    - nom: "GestEtu"
+      url: "https://github.com/Prosper397/GestEtu"
+      description: "Gestion d'étudiants"
+      stack: ["C#"]
+    - nom: "MathUtilsLib"
+      url: "https://github.com/Prosper397/MathUtilsLib"
+      description: "Bibliothèque d'utilitaires mathématiques"
+      stack: ["C#"]
+    - nom: "SimulateurMarche"
+      url: "https://github.com/Prosper397/SimulateurMarche"
+      description: "Simulateur de marché boursier — achat/vente d'actions, sauvegarde de portefeuille"
+      stack: ["C++"]
+
+  exercices_python:
+    - nom: "basesDePython"
+      url: "https://github.com/Prosper397/basesDePython"
+      description: "Bases de Python travaillées en L1"
+    - nom: "basesDePython2"
+      url: "https://github.com/Prosper397/basesDePython2"
+      description: "Suite des concepts et manipulations de base"
+    - nom: "calculette"
+      url: "https://github.com/Prosper397/calculette"
+      description: "Calculette avec tkinter et math"
+    - nom: "carre"
+      url: "https://github.com/Prosper397/carre"
+      description: "Dessins géométriques avec le module turtle"
+    - nom: "jeuDeCartes"
+      url: "https://github.com/Prosper397/jeuDeCartes"
+      description: "Simulation d'un jeu de cartes"
+    - nom: "Tkinter-Animated-Navbar"
+      url: "https://github.com/Prosper397/Tkinter-Animated-Navbar"
+      description: "Interface de bureau avec navbar latérale animée (Canvas)"
+
+contact:
+  github: "https://github.com/Prosper397"
+  linkedin: "https://www.linkedin.com/in/prosper-midohui"
+  email: "prospermidohui9@gmail.com"
+  telephone: "+228 71 67 86 19"
